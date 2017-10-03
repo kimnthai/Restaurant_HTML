@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant HTML</title>  
+    <link rel="stylesheet" href="styles.css">   
+    <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+</head>
+<body>
+   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <header>
+       <h1>From East to West</h1>
+       <center>
+           <nav>
+               <ul>
+                   <li><a href="#app">Appetizers</a></li>
+                   <li><a href="#chicken">Chicken</a></li>
+                   <li><a href="#veg">Vegetarian</a></li>
+                   <li><a href="#dessert">Dessert</a></li>
+                   <li><a href="#asian">Chinese Menu</a></li>
+                   <li><a href="#map">Location</a></li>                 
+                   
+               </ul>
+           </nav>
+       </center>
+      
+  </header>
+   
+<div id="container">
+         <div id="divStyle1">
+          <section>
+              <h2 style="padding-top: 20px;" id="app">Appetizers</h2>
+                <p>Enjoy our wonderful appetizers for either a solo or a special all in one bundle deal for $25.00 plus tax.</p>
+                
+               <ul>
+                   <li>Chips and Guacamole ------------------------------------------------------------------------------------------------------------------------$7.95</li>
+                   <li>Spicy Chicken Wings --------------------------------------------------------------------------------------------------------------------------$8.99</li>
+                   <li>Cheeseburger  Sliders -------------------------------------------------------------------------------------------------------------------------$8.99</li>
+                   <li>Garlic Bread -----------------------------------------------------------------------------------------------------------------------------------$5.99</li>           
+               </ul>
+               <img src="image/appe.jpg" alt="Appetizer Menu Picture">          
+          </section>
+          
+          <section>
+               <h2 id="chicken">Chicken</h2>
+                <p>Feel free to select from a variety of meat specialized dishes with a choice of  rice and beans, steamed  vegetables or mashed potatoes. Extra sides are $1.99 plus tax.</p>
+                <ul>
+                   <li>Chicken Marsala with Mushrooms --------------------------------------------------------------------------------------------------------$12.99</li>
+                   <li>Garlic Roast Chicken ------------------------------------------------------------------------------------------------------------------------$12.95</li>
+                   <li>Spicy Garlic Lime Chicken -----------------------------------------------------------------------------------------------------------------$14.95</li>
+                   <li>Coconut Chicken and Rice ------------------------------------------------------------------------------------------------------------------$15.99</li>
+               </ul>
+               <img src="image/chicken.jpg" alt="Chicken Menu Picture"> 
+          </section>
+          
+          <section>         
+               <h2 id="veg">Vegetarian</h2>
+               <p>For those who want to enjoy a meal filled with greens. Garlic bread is included. Extra sides are 1.99 plus tax.</p>
+               <ul>
+                   <li>Penne with Herbs, Tomatoes, and Peas ---------------------------------------------------------------------------------------------------$12.99</li>
+                   <li>Grilled Veggie and Hummus Wraps--------------------------------------------------------------------------------------------------------$10.95</li>
+                   <li>Vegetable Pael-------------------------------------------------------------$14.95 solo,    $24.95 for two or $29.99 for a 4 person gathering.</li>
+               </ul>
+                 <img src="image/vege.jpg" alt="Vegetarian Menu Picture">          
+          </section>
+          
+           <section>
+              <h2 id="dessert">Dessert</h2>
+                <p>For those who want to treat themselves to a sweet afterparty.</p>
+               <ul>
+                   <li>Pecan Cobbler ---------------------------------------------------------------------------------------------------------------------------------$4.99</li>
+                   <li>Key Lime Pie ----------------------------------------------------------------------------------------------------------------------------------$5.99</li>
+                   <li>Guayaba Cheesecake -------------------------------------------------------------------------------------------------------------------------$7.95</li>
+                   <li>Nutella Crunch Ice Cream Cake ------------------------------------------------------------------------------------------------------------$8.95</li>
+               </ul>          
+           </section>     
+        </div>
+                   
+           <div id="divStyle2"><section>
+                    
+                   <h2 id="asian">Chinese Menu</h2>
+                   Our full menu that specializes in Eastern Cuisine. Full Courses meals include 2 sides. Extra sides are $1.99 plus tax.  
+                              
+                      <table> 
+         
+                  <tr>
+                      <td>  
+                      <h3>汤 Soup</h3>           
+                      <ul>
+                          <li>Thai Coconut Chicken Soup--------------------------------$2.99</li>
+                          <li>Egg Drop Soup------------------------------------------------$3.95</li>
+                          <li>Chinese Napa Cabbage Soup-------------------------------$4.25</li>
+                      </ul>
+                                   
+                      </td>
+                      <td>
+                          
+                         <h3>面条 Noddles</h3>
+                          <ul>
+                              <li>Miso Ramen------------------------------------------------$9.95</li>
+                              <li>Thai Peanut Noodle Stir Fry----------------------------$10.95</li>
+                              <li>Sesame Udon Noodles------------------------------------$8.50</li>
+                          </ul>
+                          
+                          
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><center><img src="image/c1.jpg" style="max-width: 90%; max-height: 70%; " alt="Chinese Menu Picture"></center></td>
+                      <td><center><img src="image/c2.jpg" style="max-width: 90%; max-height: 70%; " alt="Chinese Menu Picture"></center></td>
+                  </tr>
+                  
+                  <tr>
+                      <td>
+                      <h3>膳食 Full Courses Meals</h3>           
+                      <ul>
+                          <li>Orange Chicken---------------------------------------------$13.95</li>
+                          <li>PepperSteak with Steamed Vegetables-------------------$12.50</li>
+                          <li>Szechawn Shrimp-------------------------------------------$13.50</li>
+                      </ul>            
+                      </td>
+                      
+                      <td>
+                      <h3>小菜 Sides</h3>
+                      <ul>
+                          <li>Gyoza--------------------------------------------------------$3.99</li>
+                          <li>Fried Rice---------------------------------------------------$2.88</li>
+                          <li>Vegetable Egg Roll----------------------------------------$3.99</li>
+                      </ul>             
+                      </td>
+                  </tr>
+                     </table>       
+               </section> 
+               </div>          
+       
+       
+             
+       <center>
+          <hr>
+          <h2>Find us here</h2>
+          <img id="map" src="https://maps.googleapis.com/maps/api/staticmap?center=Paris,France &zoom=15&size=1000x300&maptype=roadmap
+       &markers=color:red%7Clabel:S%7CParis,France" alt="Our restaurant is located in Paris France">           
+       </center> 
+       
+       </div>
+
+    <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>   
+   
+</body>
+</html>
+
+
